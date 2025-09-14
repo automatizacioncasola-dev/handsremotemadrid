@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 
 
+
 // Minimal, single-file React preview of the site structure.
 // In the real Next.js app you'll split into pages and connect Supabase.
 
