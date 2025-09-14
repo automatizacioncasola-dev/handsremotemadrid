@@ -97,7 +97,11 @@ function Home({ t }) {
     <>
       {/* Hero */}
       <section style={{ position: "relative", overflow: "hidden" }}>
-        <img src="https://images.unsplash.com/photo-1527443154391-507e9dc6c5cc?q=80&w=2000&auto=format&fit=crop" alt="fiber" style={{ width: "100%", height: 420, objectFit: "cover", opacity: 0.25 }} />
+        <img
+  src="/hero.jpg"
+  alt="Remote Hands in Madrid"
+  className="w-full h-[480px] object-cover rounded-2xl"
+/>" alt="fiber" style={{ width: "100%", height: 420, objectFit: "cover", opacity: 0.25 }} />
         <div style={{ position: "absolute", inset: 0, display: "grid", placeItems: "center" }}>
           <div className="text-center px-6">
             <h1 style={{ fontSize: 44, lineHeight: 1.1, fontWeight: 800 }}>
