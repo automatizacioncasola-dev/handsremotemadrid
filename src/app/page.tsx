@@ -1,7 +1,3 @@
 "use client";
-// @ts-nocheck
-import HRMApp from "@/components/HRMApp";
-
-export default function Page() {
-  return <HRMApp />;
-}
+import HRMApp from "@/components/HRMApp.jsx";
+export default function Page(){ return <HRMApp/>; }
